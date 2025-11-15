@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <form method="post" action="">
+        <div>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name">
+        </div><br>
+        <div> 
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div><br>
+        <div>
+            <label>What kind of animals do you like?</label><br>
+            <input type="checkbox" id="mammals" name="animals[]" value="Mammals">Mammals <br>
+            <input type="checkbox" id="birds" name="animals[]" value="Birds">Birds <br>
+            <input type="checkbox" id="reptiles" name="animals[]" value="Reptiles">Reptiles <br>
+            <input type="checkbox" id="sea_animals" name="animals[]" value="Sea Animals">Sea Animals <br>
+        </div><br>
+<div>
+    <label for="favorite_animal">Favorite Animal:</label>
+    <select name="favorite_animal" id="favorite_animal">
+    <option value="elephant">Elephant</option>
+    <option value="lion">lion</option>
+    <option value="dolphin">Dolphin</option>
+    <option value="eagle">Eagle</option>
+    <option value="snake">Snake</option>
+    </select>
+</div><br>
+<div>
+    <label for="message">Message:</label><br>
+<textarea name="message" id="message" rows="5"></textarea>
+</div><br>
+<div>
+    <button type="submit">Send Message</button>
+</div>
+    </form>
+    
+</body>
+</html>
